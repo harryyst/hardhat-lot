@@ -50,7 +50,7 @@ contract Raffle is VRFConsumerBaseV2{
             numWords
         );
 
-        emit RequestedRaffleWinner(requestId)
+        emit RequestedRaffleWinner(requestId);
 
     }
 
